@@ -1,0 +1,40 @@
+body{
+    background-color: #010c1f;
+    
+}
+.first{
+    width: 98vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    padding: 150px;
+    margin-left: 10px;
+    
+}
+button{
+    background-color: #76a4f5;
+    border: 2px solid #76a4f5;
+    padding: 25px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #84adf5;
+}
+button:active{
+    padding: 20px 40px;
+    
+}
+.joke1{
+    color:aliceblue;
+    font-size: 30px;
+
+}
+*{
+    box-sizing: border-box;
+}
